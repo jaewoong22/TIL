@@ -1,3 +1,3 @@
-# String°ú StringBuffer, ±×¸®°í StringBuilder
+# Stringê³¼ StringBuffer, ê·¸ë¦¬ê³  StringBuilder
 
-String°ú StringBuffer, ±×¸®°í StringBuilder
+Stringê³¼ StringBuffer, ê·¸ë¦¬ê³  StringBuilder
