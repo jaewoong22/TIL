@@ -1,16 +1,17 @@
-# Map - getOrDefualt¶õ?
+# Map - getOrDefualtë€?
 
 ### getOrDefault
-Java 8¿¡¼­ Ãß°¡µÈ Collection API ÇÔ¼öµé Áß ÀÏºÎÀÌ´Ù. 
+Java 8ì—ì„œ ì¶”ê°€ëœ Collection API í•¨ìˆ˜ë“¤ ì¤‘ ì¼ë¶€ì´ë‹¤.
+
 * V getOrDefault(Object Key, Object defaultValue)
-* Ã£´Â key°¡ Á¸ÀçÇÑ´Ù¸é Ã£´Â keyÀÇ value¸¦ ¹İÈ¯ÇÏ°í ¾ø°Å³ª nullÀÌ¸é default °ªÀ» ¹İÈ¯ÇÑ´Ù.
+* ì°¾ëŠ” keyê°€ ì¡´ì¬í•œë‹¤ë©´ ì°¾ëŠ” keyì˜ valueë¥¼ ë°˜í™˜í•˜ê³  ì—†ê±°ë‚˜ nullì´ë©´ default ê°’ì„ ë°˜í™˜í•œë‹¤.
 
 <br>
 
-### »ç¿ë¹æ¹ı
-``` getOrDefault(Object key, V DefaultValue) ```
-* key : map ¿ä¼ÒÀÇ Å°ÀÌ´Ù.
-* defaultValue : ÁöÁ¤µÈ Å°·Î ¸ÅÇÎµÈ °ªÀÌ ¾ø°Å³ª nullÀÌ¸é ¹İÈ¯ÇÏ´Â ±âº» °ªÀÌ´Ù.
+### ì‚¬ìš©ë°©ë²•
+` getOrDefault(Object key, V DefaultValue) `
+* key : map ìš”ì†Œì˜ í‚¤ì´ë‹¤.
+* defaultValue : ì§€ì •ëœ í‚¤ë¡œ ë§¤í•‘ëœ ê°’ì´ ì—†ê±°ë‚˜ nullì´ë©´ ë°˜í™˜í•˜ëŠ” ê¸°ë³¸ ê°’ì´ë‹¤.
 
 ```java
 import java.util.HashMap;
@@ -24,8 +25,8 @@ public class practice {
         for(String key : abc) {
         	hm.put(key, hm.getOrDefault(key, 0) + 1); 
         }
-        System.out.println("Ãâ·Â °á°ú : " + hm); 
-        // Ãâ·Â °á°ú : {A=1, B=1, C=2} 
+        System.out.println("ì¶œë ¥ ê²°ê³¼ : " + hm); 
+        // ì¶œë ¥ ê²°ê³¼ : {A=1, B=1, C=2} 
      } 
 }
 ```
