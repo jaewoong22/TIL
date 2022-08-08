@@ -28,6 +28,7 @@ sb1.reverse(); // 문자열 뒤집기
 ```
 (StringBuffer와 StringBuilder 생성, 사용 예시)
 
+
 <br>
 
 ### StringBuffer와 StringBuilder의 차이점
