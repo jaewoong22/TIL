@@ -5,7 +5,7 @@ String 클래스의 불변(immutable)과 반대로 변경이 가능(mutable)합�
 즉, 문자열 연산을 할 때 인스턴스(new)를 한 번만 생성하고 메모리의 값을 변경시켜 문자열을 변경합니다.
 문자열 연산 등으로 기존 객체의 공간이 부족하게 되는 경우 기존의 버퍼 크기를 늘리며 유연하게 동작합니다.
 
-```
+```java
 // StringBuffer 생성
 StringBuffer sb = new StringBuffer("stringBuffer");
 sb.substring(2, 4); 문자열 추출
