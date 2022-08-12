@@ -73,7 +73,8 @@ SOLID 원칙의 창시자 Robert는 <b>OCP를 가능케 하는 중요 메커니�
 
 ### 4. ISP(인터페이스 분리의 원칙 : Interface Sergregation Principle)
 
-<img src="https://github.com/jaewoong22/TIL/blob/main/IMG/isp.png" width="20%" height="20%"></img>
+<img src="https://github.com/jaewoong22/TIL/blob/main/IMG/isp.png" width="50%" height="50%"></img>
+<br>
 
 "자신이 사용하지 않은 인터페이스는 구현하지 말아야 한다."
 
@@ -104,7 +105,8 @@ SRP의 목포는 클래스 분리를 통해 이뤄지고, ISP는 인터페이스
 
 ### 5. DIP(의존성 역전의 원칙 : Dependency Inversion Principle)
 
-<img src="https://github.com/jaewoong22/TIL/blob/main/IMG/dip.png" width="20%" height="20%"></img>
+<img src="https://github.com/jaewoong22/TIL/blob/main/IMG/dip.png" width="50%" height="50%"></img>
+<br>
 <b>
 "고수준(상위) 모듈은 저수준(하위) 모듈에 의존해선 안된다. 둘 다 추상화에 의존해야 한다."
 "추상화는 세부 사항에 의존해선 안된다. 세부 사항은 추상화에 따라 달라진다."
