@@ -1,11 +1,11 @@
 # 객체지향 5대 원칙 SOLID
 
 ### 객체지향 5대 원칙 SOLID, OOP 5대 원칙
-</hr>
+
 각 원칙의 맨 앞 글자를 따서 SOLID 원칙이라고 불립니다.
 SOLID는'견고한'이라는 뜻을 가지고 있습니다. <br>
 이 다섯 가지 원칙을 지키며 개발을 진행하면 유지보수에 용이한 견고한 코드를 작성할 수 있다는 것을 나타내기도 한다고 합니다.
-
+<br>
 * SRP (단일책임의 원칙 : Single Responsibility Principle)
 * OCP (개방폐쇄의 원칙 : Open Close Principle)
 * LSP (리스코프 치환의 원칙 : The Liskov Subsitution Principle)
@@ -15,9 +15,10 @@ SOLID는'견고한'이라는 뜻을 가지고 있습니다. <br>
 <br>
 
 ### 1. SPR (단일책임의 원칙 : Single Resonsibility Principle)
-</hr>
+
 모든 클래스는 하나의 기능만 가지며 하나의 책임을 수행하는데 집중되어야 하는 것이 SRP가 의미하는 원칙입니다.<br>
 쉽게 말해 하나의 클래스로 너무 많은 일을 하지 말고 딱 한 가지 책임만 수행하라는 뜻을 가집니다.
+<br>
 
 <b>여기서 말하는 한가지 책임의 기준이란?</b><br>
 SOLID 원칙의 창시자 Robert는 단일 책임 원칙에 대해 같이 수정해야될 것들은 묶고 따로 수정해야될 것들은 분리하는 것으로 그 기준을 정했습니다.<br>
@@ -40,7 +41,7 @@ SOLID 원칙의 창시자 Robert는 단일 책임 원칙에 대해 같이 수정
 <br>
 
 ### 2. OCP(개방 폐쇄의 원칙 : Open Close Principle)
-</hr>
+
 소프트웨어의 구성요소(컴포넌트, 클래스, 모듈, 함수)는 <b>확장에 열려있고, 수정에는 닫혀있어야 한다</b>는 원리입니다.
 '확장에 열려있다'는 것은 프로그램의 기본 기능을 확장할 수 있다는 것이고,
 '수정에 닫혀있다'는 것은 한 번 작성한 코드를 바꾸지 않아도 된다는 것입니다.
@@ -59,7 +60,7 @@ SOLID 원칙의 창시자 Robert는 <b>OCP를 가능케 하는 중요 메커니�
 <br>
 
 ### 3. LSP(리스코프 치환의 원칙 : The Liskov Substitution Principle)
-</hr>
+
 <b>"서브 타입(자식클래스)은 언제나 기반 타입(부모클래스)으로 교체할 수 있어야 한다"</b>
 
 이 원칙의 의미는 <b>부모 클래스의 인스턴스를 사용하는 위치에 자식 클래스의 인스턴스를 대신 사용했을 때 코드가 원래 의도대로 작동해야 한다</b>는 것입니다.
@@ -76,7 +77,7 @@ SOLID 원칙의 창시자 Robert는 <b>OCP를 가능케 하는 중요 메커니�
 <br>
 
 ### 4. ISP(인터페이스 분리의 원칙 : Interface Sergregation Principle)
-</hr>
+
 <img src="https://github.com/jaewoong22/TIL/blob/main/IMG/isp.png" width="50%" height="50%"></img>
 <br>
 
@@ -108,7 +109,7 @@ SRP의 목포는 클래스 분리를 통해 이뤄지고, ISP는 인터페이스
 <br>
 
 ### 5. DIP(의존성 역전의 원칙 : Dependency Inversion Principle)
-</hr>
+
 <img src="https://github.com/jaewoong22/TIL/blob/main/IMG/dip.png" width="50%" height="50%"></img>
 <br>
 <b>
