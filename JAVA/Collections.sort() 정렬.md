@@ -17,11 +17,11 @@ public class sort {
 		nameList.add("Choi");
 		nameList.add("Kim");
 		
-		System.out.println("- 정렬 전" + nameList);
+		System.out.println("정렬 전" + nameList);
 		
 		Collections.sort(nameList);
 		
-		System.out.println("- 정렬 후" + nameList);
+		System.out.println("정렬 후" + nameList);
 		
 	}
 }
